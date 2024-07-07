@@ -77,7 +77,7 @@ class Register:
             return
 
         self.register_window = Tk()
-        self.register_window.geometry('340x380')
+        self.register_window.geometry('250x380')
         self.register_window.title('Registration')
         self.register_window.resizable(False, False)
         self.register_window.config(background=WIN_BACKGROUND)

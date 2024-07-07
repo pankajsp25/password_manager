@@ -12,7 +12,7 @@ from utils import decrypt
 class Login:
     def __init__(self):
         self.login_window = Tk()
-        self.login_window.geometry('300x260')
+        self.login_window.geometry('250x260')
         self.login_window.title('Login')
         self.login_window.resizable(False, False)
         self.login_window.config(background=WIN_BACKGROUND)

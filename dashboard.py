@@ -28,8 +28,10 @@ class Dashboard:
         m_frame = ttk.Frame(self.dashboard_window, style='My.TFrame')
         m_frame.pack()
 
-        self.menubar = Menu(self.dashboard_window, relief="raised", background='#4d4d4d', foreground='White')
-        self.action_menubar = Menu(self.menubar, tearoff=0, background='#4d4d4d', foreground='White')
+        self.menubar = Menu(self.dashboard_window, relief="raised")
+        # self.menubar.config(background='#4d4d4d', foreground='White')
+        self.action_menubar = Menu(self.menubar, tearoff=0)
+        # self.action_menubar.config(background='#4d4d4d', foreground='White')
         self.menubar.add_cascade(label='Actions', menu=self.action_menubar)
 
         self.action_menubar.add_command(label='Add New', command=self.add_new)
