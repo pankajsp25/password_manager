@@ -1,0 +1,9 @@
+altgraph==0.17.4
+cffi==1.16.0
+clipboard==0.0.4
+cryptography==42.0.8
+packaging==24.1
+pycparser==2.22
+pyinstaller==6.8.0
+pyinstaller-hooks-contrib==2024.7
+pyperclip==1.9.0
